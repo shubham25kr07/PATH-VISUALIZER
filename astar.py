@@ -214,7 +214,6 @@ def djistra(draw, grid, start, end, width):
 
 
 def astar(draw, grid, start, end, width):
-    print("ammmit")
     # draw()
     count = 0
     open_set = PriorityQueue()
@@ -334,7 +333,7 @@ def ALGO(ROWS, flag):
                     end = None
             # pygame.display.update()
             if event.type == pygame.KEYDOWN:
-                print("amit")
+  
                 if event.key == pygame.K_SPACE and not started:
                     for rows in grid:
                         for block in rows:
@@ -353,7 +352,6 @@ def ALGO(ROWS, flag):
 
                         # used to pass a fxn inside another fxn
 
-                    # x=lambda:print("amit")
                     # x() will call
 def main(win, width):
     ROWS = 50
